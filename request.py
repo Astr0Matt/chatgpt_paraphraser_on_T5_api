@@ -17,8 +17,7 @@ def get_paraphrase(prompt):
         return None
 
 if __name__ == "__main__":
-    sentence = "The X_CAN IP is equipped with a central interrupt controller (IRC).\n\
-                It captures all events of the MH and PRT and can be configured for each event individually to interrupt the HOST CPU."
+    sentence = "I am an hardware architect who try to imrpove architects work with ai"
     
     paraphrased = get_paraphrase(sentence)
     if paraphrased:

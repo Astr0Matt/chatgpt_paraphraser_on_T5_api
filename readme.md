@@ -31,7 +31,7 @@ The script will make a request to the Flask API, and you should see the original
 
 or using curl:
 
-curl -X POST -H "Content-Type: application/json" -d '{"prompt":"I am an hardware architecht which try to imrpove architects with ai"}' http://127.0.0.1:5000/paraphrase
+curl -X POST -H "Content-Type: application/json" -d '{"prompt":"I am an hardware architect who try to imrpove architects work with ai"}' http://127.0.0.1:5000/paraphrase
 
     {
         "result": [
@@ -49,7 +49,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"prompt":"I am an hardware
 - **Data Format**: JSON with a key named "prompt" containing the sentence to be paraphrased.
 
     {
-        "prompt": "I am an hardware architecht which try to imrpove architects with ai"
+        "prompt": "I am an hardware architect who try to imrpove architects work with ai"
     }
 
 - **Response**: JSON containing a key named "result" with a list of paraphrased sentences.
